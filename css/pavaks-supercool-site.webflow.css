@@ -19,6 +19,25 @@
 .dropdown-toggle {
   position: absolute;
   left: 821px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 30px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #00558c;
 }
 
 .dropdown-list {
@@ -28,4 +47,15 @@
 .dropdown-list.w--open {
   left: 845px;
   top: 49px;
+}
+
+.text-block {
+  font-family: Varela, sans-serif;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.icon {
+  color: #fffefe;
 }
